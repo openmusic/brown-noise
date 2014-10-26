@@ -1,6 +1,6 @@
 {
   "name": "openmusic-brown-noise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Function to generate n samples of brown noise",
   "main": "index.js",
   "scripts": {
@@ -23,14 +23,12 @@
     "url": "https://github.com/openmusic/brown-noise/issues"
   },
   "homepage": "https://github.com/openmusic/brown-noise",
-  "devDependencies": {
+  "dependencies": {
     "gulp": "^3.8.9",
     "gulp-browserify": "^0.5.0",
     "gulp-rename": "^1.2.0",
     "gulp-uglify": "^1.0.1",
-    "openmusic-oscilloscope": "^1.0.0"
-  },
-  "dependencies": {
+    "openmusic-oscilloscope": "^1.0.0",
     "openmusic-white-noise": "^1.0.0"
   }
 }
